@@ -1,4 +1,9 @@
+---
+title: Test
+nav_order: 2
+---
+
 Another new page
 ===
 
-well you see
+Hello world!
