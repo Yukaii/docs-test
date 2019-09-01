@@ -1,6 +1,9 @@
 How to make a doc site on GitHub with HackMD
 ===
 
+Getting started
+---
+
 1. Clone or fork this repo on GitHub
 2. Change the `baseurl` to your repo name in `_config.yml`
 3. Open new branch named `gh-pages` and push to your GitHub remote (e.g. `git branch gh-pages && git push origin gh-pages`)
@@ -10,4 +13,12 @@ How to make a doc site on GitHub with HackMD
 7. Modify the content on HackMD
 8. Select `Versions` on the top right menu, click `Push to GitHub`
 9. Fill the new Version name and click `Push`
-10. Wait for GitHub Actions build your doc site
+10. Wait for GitHub Actions build your doc site and view it on GitHub Pages!
+
+Add a new page to doc site
+---
+
+1. Create a new note on HackMD
+2. Modify the content on HackMD
+3. Select `Push to GitHub` and select your repo, `master` branch and create a file then click `Push`
+4. Wait for GitHub Actions build your doc site and view it on GitHub Pages!
