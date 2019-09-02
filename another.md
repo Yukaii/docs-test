@@ -1,5 +1,5 @@
 ---
-title: Test
+title: Another page
 nav_order: 2
 ---
 
