@@ -6,5 +6,5 @@ nav_order: 2
 Another new page
 ===
 
-Hello world!
+Hello world!  
 Oh yes!
