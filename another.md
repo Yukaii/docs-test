@@ -7,4 +7,4 @@ Another new page
 ===
 
 Hello world!  
-Oh yes!
+Oh yes! :))))
