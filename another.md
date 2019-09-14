@@ -5,9 +5,6 @@ nav_order: 2
 
 # Another new page
 
-Hello world!
-Oh yes! :))))
+Here another page example
 
-
-Yoooooooo
-Hello there
+Built with the GitHub Actions v2
