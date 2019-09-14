@@ -15,7 +15,7 @@ jobs:
         ruby-version: '2.x'
     - name: Build the site
       run: |
-        bundle exec jekyll build
+        bundle install && bundle exec jekyll build
     - name: Deploy pages
       if: success()
       uses: crazy-max/ghaction-github-pages@v0.4.0
