@@ -9,8 +9,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Build the site in the jekyll/builder container
+    - uses: actions/setup-ruby@v1
+      name: Setup ruby
+      with:
+        ruby-version: '2.x'
+    - name: Build the site
       run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+        bundle exec jekyll build
+    - name: Deploy pages
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v0.4.0
+      with:
+        target_branch: gh-pages
+        build_dir: build
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
