@@ -1,0 +1,16 @@
+{
+  
+  "0": {
+    "title": "Another page",
+    "content": "Another new page . Hello world! Oh yes! :)))) . Yoooooooo .",
+    "url": "/docs-test/another.html",
+    "relUrl": "/another.html"
+  }
+  ,"1": {
+    "title": "How to make a doc site on GitHub with HackMD",
+    "content": "How to make a doc site on GitHub with HackMD . Getting started . Clone or fork this repo on GitHub | Change the baseurl to your repo name in _config.yml | Open new branch named gh-pages and push to your GitHub remote (e.g. git branch gh-pages &amp;&amp; git push origin gh-pages) | Ensure you setup GitHub Pages source uses gh-pages branch | Create a new note on HackMD | Select Pull from GitHub and select your repo, master branch and select README.md from the file dropdown then click Pull | Modify the content on HackMD | Select Versions on the top right menu, click Push to GitHub | Fill the new Version name and click Push | Wait for GitHub Actions build your doc site and view it on GitHub Pages! | Add a new page to doc site . Create a new note on HackMD | Modify the content on HackMD | Select Push to GitHub and select your repo, master branch and create a file then click Push | Wait for GitHub Actions build your doc site and view it on GitHub Pages! |",
+    "url": "/docs-test/",
+    "relUrl": "/"
+  }
+  
+}
